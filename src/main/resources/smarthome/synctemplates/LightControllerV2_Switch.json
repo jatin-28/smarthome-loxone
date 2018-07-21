@@ -1,0 +1,15 @@
+{
+  "id": "{{device.uuidAction}}",
+  "type": "action.devices.types.LIGHT",
+  "traits": [
+    "action.devices.traits.OnOff"
+  ],
+  "name": {
+    "name": "{{device.lightName}}"
+  },
+  "roomHint": "{{device.roomName}}",
+  "willReportState": false,
+  "customData": {
+    "action": "{{device.uuidAction}}"
+  }
+}

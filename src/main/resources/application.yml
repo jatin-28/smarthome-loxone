@@ -1,0 +1,20 @@
+server:
+    port: 8080
+
+logging:
+    level:
+#      root: DEBUG
+#      org.springframework: DEBUG
+#      org.glassfish.jersey: TRACE
+      org.glassfish.jersey.tracing: ALL
+spring:
+  jersey:
+    application-path: /
+
+smarthome:
+  loxone:
+    address: TODO
+    user: TODO
+    password: TODO
+    uipassword: TODO
+

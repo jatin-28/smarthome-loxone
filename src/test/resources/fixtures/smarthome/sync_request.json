@@ -1,0 +1,6 @@
+{
+  "requestId": "${REQUEST_UUID}",
+  "inputs": [{
+    "intent": "action.devices.SYNC"
+  }]
+}

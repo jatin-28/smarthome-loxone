@@ -1,0 +1,41 @@
+{
+  "requestId": "${REQUEST_UUID}",
+  "payload": {
+    "agentUserId": "",
+    "devices": [
+      {
+        "id": "<TODO>",
+        "type": "action.devices.types.LIGHT",
+        "traits": [
+          "action.devices.traits.OnOff"
+        ],
+        "name": {
+          "name": "Light"
+        },
+        "roomHint": "Bathroom Downstairs",
+        "willReportState": false,
+        "customData": {
+          "action": "<TODO>"
+        }
+      },
+      {
+        "id": "<TODO>",
+        "type": "action.devices.types.LIGHT",
+        "traits": [
+          "action.devices.traits.OnOff",
+          "action.devices.traits.Brightness"
+        ],
+        "name": {
+          "name": "Strips"
+        },
+        "roomHint": "Hallway",
+        "willReportState": false,
+        "customData": {
+          "action": "<TODO>"
+        }
+      }
+    ]
+  }
+}
+
+
